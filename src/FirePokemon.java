@@ -3,7 +3,7 @@ import java.util.List;
 
 public class FirePokemon extends Pokemon {
 
-    private final String type = "fire";
+    private static String type = "fire";
     List<String> attacks = Arrays.asList("Fire Lash", "Flame Thrower", "Pyro Ball", "Inferno");
 
     public FirePokemon(String name, int level, int hp, String food, String sound) {

@@ -3,7 +3,7 @@ import java.util.List;
 
 public class GrassPokemon extends Pokemon {
 
-    private final String type = "grass";
+    private static String type = "grass";
     List<String> attacks = Arrays.asList("Leaf Storm", "Solar Beam", "Leech Seed", "Leave Blade");
 
     public GrassPokemon(String name, int level, int hp, String food, String sound) {
