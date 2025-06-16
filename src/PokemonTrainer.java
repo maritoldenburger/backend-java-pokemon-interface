@@ -13,11 +13,11 @@ public class PokemonTrainer {
         return name;
     }
 
-    public List<Pokemon> getPokemonList() {
+    public List<Pokemon> getPokemons() {
         return pokemonList;
     }
 
-    public void setPokemonList(List<Pokemon> pokemons) {
+    public void setPokemons(List<Pokemon> pokemons) {
         this.pokemonList = pokemons;
     }
 }
