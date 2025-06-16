@@ -1,2 +1,2 @@
-public class WaterPokemon {
+public class WaterPokemon extends Pokemon {
 }

@@ -1,2 +1,2 @@
-public class FirePokemon {
+public class FirePokemon extends Pokemon {
 }
