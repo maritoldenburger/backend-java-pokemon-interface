@@ -7,7 +7,7 @@ public class FirePokemon extends Pokemon {
     }
 
     public void fireLash(Pokemon name, Pokemon enemy) {
-        System.out.println(name.getName() + " attacks " + enemy.getName() + "with Fire Lash!");
+        System.out.println(name.getName() + " attacks " + enemy.getName() + " with Fire Lash!");
         switch (enemy.getType()) {
             case "electric":
                 System.out.println(enemy.getName() + " loses 25 hp");
@@ -26,7 +26,7 @@ public class FirePokemon extends Pokemon {
     }
 
     public void flameThrower(Pokemon name, Pokemon enemy) {
-        System.out.println(name.getName() + " attacks " + enemy.getName() + "with Flame Thrower!");
+        System.out.println(name.getName() + " attacks " + enemy.getName() + " with Flame Thrower!");
         switch (enemy.getType()) {
             case "electric":
                 System.out.println(enemy.getName() + " loses 50 hp");
@@ -45,7 +45,7 @@ public class FirePokemon extends Pokemon {
     }
 
     public void pyroBall(Pokemon name, Pokemon enemy) {
-        System.out.println(name.getName() + " attacks " + enemy.getName() + "with Pyro Ball!");
+        System.out.println(name.getName() + " attacks " + enemy.getName() + " with Pyro Ball!");
         switch (enemy.getType()) {
             case "electric":
                 System.out.println(enemy.getName() + " loses 25 hp");
@@ -64,7 +64,7 @@ public class FirePokemon extends Pokemon {
     }
 
     public void inferno(Pokemon name, Pokemon enemy) {
-        System.out.println(name.getName() + " attacks " + enemy.getName() + "with Inferno!");
+        System.out.println(name.getName() + " attacks " + enemy.getName() + " with Inferno!");
         switch (enemy.getType()) {
             case "electric":
                 System.out.println(enemy.getName() + " loses 50 hp");
