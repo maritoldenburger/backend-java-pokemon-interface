@@ -1,6 +1,6 @@
 public class GrassPokemon extends Pokemon {
 
-    private final String type = "electric";
+    private final String type = "grass";
 
     public GrassPokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp, food, sound, type);
@@ -81,5 +81,4 @@ public class GrassPokemon extends Pokemon {
         }
         System.out.println(enemy.getName() + " has " + enemy.getHp() + " hp left");
     }
-
 }
