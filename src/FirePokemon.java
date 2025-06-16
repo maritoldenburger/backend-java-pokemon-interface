@@ -1,6 +1,10 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class FirePokemon extends Pokemon {
 
     private final String type = "fire";
+    List<String> attacks = Arrays.asList("Fire Lash", "Flame Thrower", "Pyro Ball", "Inferno");
 
     public FirePokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp, food, sound, type);
@@ -80,5 +84,9 @@ public class FirePokemon extends Pokemon {
                 enemy.setHp(enemy.getHp() - 25);
         }
         System.out.println(enemy.getName() + " has " + enemy.getHp() + " hp left");
+    }
+
+    List<String> getAttacks() {
+        return attacks;
     }
 }
